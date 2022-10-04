@@ -15,11 +15,10 @@ jobs:
       - name: Setup Deno environment
         uses: denoland/setup-deno@v1
         with:
-          deno-version: v1.x
+          deno-version: v1.23.2
 
       - name: Build site
-        run: |
-          deno task build --location=https://kuhlaid.github.io/schm-website/
+        run: deno task build --location=https://kuhlaid.github.io/schm-website/
 
       - name: Deploy to GitHub Pages
         if: success()
