@@ -44,19 +44,14 @@ Lume and with the NetlifyCMS.
 
 ### GitHub Pages
 
-- [Get your own Lume blog on Github Pages](https://github.com/lumeland/base-blog/generate)
+Do not use this. GitHub actions pages are a pain to work with in Oct. 2022. Use Vercel instead.
+
+<!-- - [Get your own Lume blog on Github Pages](https://github.com/lumeland/base-blog/generate)
 - Open the file `.github/workflows/build.yml` and edit the `--location` option
   with the url of the site, for example
   `--location=https://username.github.io/repo/`
-- Enable Github Pages and select the branch `gh-pages` as source.
-- [See a live demo](https://lumeland.github.io/base-blog/)
-
-### GitLab Pages
-
-- Open the file `.github/workflows/build.yml` and edit the `--location` option
-  with the url of the site, for example
-  `--location=https://username.gitlab.io/repo/`
-- [See a live demo](https://kuhlaid.gitlab.io/schm-website/)
+- As of Oct. 2022, since GitHub Actions are still in Beta it is best to build and push the locally built site to a new GitHub branch such as `gh-pages`. Note you will need to push the branch to GitHub before you are able to go into the GitHub settings/Pages and enable Github Pages by choosing a branch and selecting `gh-pages` as theh source.
+- [See a live demo](https://lumeland.github.io/base-bgh-pageslog/) -->
 
 ### Deno Deploy
 
