@@ -1,4 +1,4 @@
-name: Publish on GitHub Pages
+name: Build static files to gh-pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -39,7 +39,7 @@ jobs:
         run: |
           deno task build --location=https://kuhlaid.github.io/schm-website/
 
-      - name: Deploy to GitHub Pages
+      - name: Push static files to gh-pages branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: gh-pages
