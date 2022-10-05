@@ -22,9 +22,10 @@ jobs:
           deno task build --location=https://kuhlaid.github.io/schm-website/
 
       - name: Deploy
-        uses: s0/git-publish-subdir-action@develop
+        uses: crazy-max/ghaction-github-pages@v2.0.1
+        with:
+          build_dir: _site
         env:
           REPO: self
           BRANCH: gh-pages
-          FOLDER: _site
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
