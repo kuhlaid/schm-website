@@ -73,6 +73,7 @@ Do not use this. GitHub actions pages are a pain to work with in Oct. 2022. Use 
     `curl -fsSL https://deno.land/x/install/install.sh | sh && /vercel/.deno/bin/deno task build --location=https://example.vercel.app/`.
     Edit the `--location` option with the name of your domain.
   - **Output directory:** `_site`
+- Note for Vercel you will need to use a vercel.json file if you want to enable caching (but I have not had much luck getting caching to work if Vercel is building the routes and things from your source code; better to build the static site and have Vercel use that instead)
 - [See a live demo](https://lume-blog.vercel.app/)
 
 ### Netlify
