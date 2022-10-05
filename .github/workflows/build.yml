@@ -47,6 +47,7 @@ jobs:
   # Deployment job
   deploy:
     environment:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
