@@ -1,3 +1,6 @@
+# This script will build static site files and push them to a `gh-pages` branch of your repository.
+# In your GitHub repository online, go to Settings/Pages/Build and deployment/Souce and choose the
+# `gh-pages` branch (after the )
 name: Build static files to gh-pages
 
 on:
@@ -9,13 +12,13 @@ on:
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  deployments: write
-  pull-requests: write
-  repository-projects: write
-  contents: write
-  pages: write
-  id-token: write
+# permissions:
+#   deployments: write
+#   pull-requests: write
+#   repository-projects: write
+#   contents: write
+#   pages: write
+#   id-token: write
 
 # Allow one concurrent deployment
 concurrency:
