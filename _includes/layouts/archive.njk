@@ -1,13 +1,12 @@
 ---
 layout: layouts/base.njk
-bodyClass: body-tag
+bodyClass: container
 ---
-<h1>{{ title }}</h1>
-
+<h1 class="pb-2">{{ title }}</h1>
+========================================
 {% set postslist = results %}
 {% include "templates/postslist.njk" %}
 
-<hr>
 
 <nav class="post-navigation">
   <ul>

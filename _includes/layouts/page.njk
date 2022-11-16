@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+bodyClass: container
+---
+  <div class="container pb-4">
+    <h1>{{ title }}</h1>
+
+    <nav class="sm">
+    {% for tag in tags %}
+      <a href="/tags/{{ tag }}/" class="badge text-bg-warning" title="Category: {{ tag }}">{{ tag }}</a>
+    {% endfor %}
+    </nav>
+
+    <time class="small" datetime="{{ date | date('DATETIME') }}">
+      Updated: {{ date | date('HUMAN_DATE') }}
+    </time>
+  </div>
+
+  <div class="container">
+    {{ content | safe }}
+  </div>
+

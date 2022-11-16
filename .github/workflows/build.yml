@@ -1,6 +1,10 @@
 # This script will build static site files and push them to a `gh-pages` branch of your repository.
-# In your GitHub repository online, go to Settings/Pages/Build and deployment/Souce and choose the
-# `gh-pages` branch (after the )
+# If you are able to go into the `gh-pages` branch and see you static content then the build action
+# was successful in GitHub and you can continue on with configuring your repository to publish the 
+# content of the `gh-pages` branch to your default repository website (which should look like 
+# https://[gitUsername].github.io/[repositoryName]/). To publish this website, 
+# in your GitHub repository online, go to Settings/Pages/Build and deployment/Source and choose the
+# `Deploy from branch`. Then just below that option choose `gh-pages` as the branch. 
 name: Build static files to gh-pages
 
 on:

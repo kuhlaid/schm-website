@@ -1,28 +1,28 @@
 ---
 layout: layouts/base.njk
-bodyClass: body-post
+bodyClass: container
 ---
-<article class="post" data-pagefind-body>
+<div class="container pb-4">
   <div class="post-header">
-    <h1 class="post-title">{{ title }}</h1>
+    <h1 class="pb-2">News</h1>
+    ========================================
+    <h2 class="h2">{{ title }}</h2>
 
-    <nav class="post-tags">
+    <nav class="sm">
     {% for tag in tags %}
-      <a href="/tags/{{ tag }}/" class="tag">{{ tag }}</a>
+      <a href="/tags/{{ tag }}/" class="badge text-bg-warning" title="Category: {{ tag }}">{{ tag }}</a>
     {% endfor %}
     </nav>
 
-    <time class="post-date" datetime="{{ date | date('DATETIME') }}">
-      {{ date | date('HUMAN_DATE') }}
+    <time class="small" datetime="{{ date | date('DATETIME') }}">
+      Updated: {{ date | date('HUMAN_DATE') }}
     </time>
   </div>
 
   <div class="post-body">
     {{ content | safe }}
   </div>
-</article>
-
-<hr>
+</div>
 
 <nav class="post-navigation">
   <ul>
