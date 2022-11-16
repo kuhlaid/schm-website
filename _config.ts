@@ -8,7 +8,9 @@ import resolveUrls from "lume/plugins/resolve_urls.ts";
 import netlifyCMS from "lume/plugins/netlify_cms.ts";
 import pageFind from "lume/plugins/pagefind.ts";
 
-const site = lume();
+const site = lume({
+  location: new URL("https://kuhlaid.github.io/schm-website/"),
+});
 
 site
   .ignore("README.md")
