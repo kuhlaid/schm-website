@@ -20,8 +20,12 @@ site
   .use(codeHighlight())
   .use(basePath())
   .use(pageFind({
-    ui: {
-      resetStyles: false,
+    indexing: {
+      bundleDirectory: "pagefind",
+      rootSelector: "html",
+      glob: "**/*.html",
+      forceLanguage: false,
+      verbose: false,
     },
   }))
   .use(slugifyUrls({ alphanumeric: false }))
