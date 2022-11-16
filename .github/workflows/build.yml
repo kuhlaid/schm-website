@@ -44,7 +44,7 @@ jobs:
 
       - name: Build site
         run: |
-          deno task build --location=https://kuhlaid.github.io/schm-website/
+          deno task build --location=https://someonechangedhermind.page/
 
       - name: Push static files to gh-pages branch
         uses: crazy-max/ghaction-github-pages@v3
