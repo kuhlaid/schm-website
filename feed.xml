@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Someone Changed Her Mind, a book by Fran Gale</title>
+	<subtitle>New book release of 2022</subtitle>
+	<link href="https://someonechangedhermind.page/feed.xml" rel="self"/>
+	<link href="https://someonechangedhermind.page/"/>
+	
+	<updated>2022-12-19T02:00:10Z</updated>
+	<id>https://someonechangedhermind.page/</id>
+	<author>
+		<name>Fran Gale,</name>
+		<email>w.patrick.gale@gmail.com,</email>
+	</author>
+	<entry>
+		<title>Paperback book available in Martinsville, VA</title>
+		<link href="https://someonechangedhermind.page/posts/2022-12-18/"/>
+		<updated>2022-12-18T00:00:00Z</updated>
+		<id>https://someonechangedhermind.page/posts/2022-12-18/</id>
+		<content type="html">&lt;p&gt;Someone Changed Her Mind, paperback edition, is now available in store at:&lt;br/&gt;&lt;/p&gt;
+&lt;a  class=&quot;btn btn-outline-primary&quot; href=&quot;https://www.booksandcranniesva.com/&quot; role=&quot;button&quot;&gt;
+Books and Crannies&lt;br/&gt;
+50 E. Church Street&lt;br/&gt;
+Suite 4&lt;br/&gt;
+Martinsville, VA 24112&lt;br/&gt;
+staff@booksandcranniesva.com&lt;br/&gt;
+276-403-4380&lt;br/&gt;
+https://www.booksandcranniesva.com/&lt;/a&gt;
+&lt;img src=&quot;https://someonechangedhermind.page/img/BookArt.v5_small.png&quot; width=&quot;300px&quot;&gt;</content>
+	</entry>
+	<entry>
+		<title>Ebook available on Google Play</title>
+		<link href="https://someonechangedhermind.page/posts/2022-11-03/"/>
+		<updated>2022-11-03T00:00:00Z</updated>
+		<id>https://someonechangedhermind.page/posts/2022-11-03/</id>
+		<content type="html">&lt;p&gt;Someone Changed Her Mind, eBook edition, is now available on Google Play for &lt;strong&gt;$2.99&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a  class=&quot;btn btn-outline-primary&quot; href=&quot;https://www.google.com/books/edition/Someone_Changed_Her_Mind/L8F8EAAAQBAJ?hl=en&amp;gbpv=0&quot; role=&quot;button&quot;&gt;🕮 Get your copy here&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&quot;https://someonechangedhermind.page/img/BookArt.v5_small.png&quot; width=&quot;300px&quot;&gt;</content>
+	</entry>
+</feed>

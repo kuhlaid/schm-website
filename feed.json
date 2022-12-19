@@ -1,0 +1,27 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Someone Changed Her Mind, a book by Fran Gale",
+  "home_page_url": "https://someonechangedhermind.page/",
+  "feed_url": "https://someonechangedhermind.page/feed.json",
+  "description": "New book release of 2022",
+  "author": {
+    "name": "Fran Gale,",
+    "url": "https://kuhlaid.github.io/schm-website/"
+  },
+  "items": [
+    {
+      "id": "https://someonechangedhermind.page/posts/2022-12-18/",
+      "url": "https://someonechangedhermind.page/posts/2022-12-18/",
+      "title": "Paperback book available in Martinsville, VA",
+      "content_html": "<p>Someone Changed Her Mind, paperback edition, is now available in store at:<br/></p>\n<a  class=\"btn btn-outline-primary\" href=\"https://www.booksandcranniesva.com/\" role=\"button\">\nBooks and Crannies<br/>\n50 E. Church Street<br/>\nSuite 4<br/>\nMartinsville, VA 24112<br/>\nstaff@booksandcranniesva.com<br/>\n276-403-4380<br/>\nhttps://www.booksandcranniesva.com/</a>\n<img src=\"https://someonechangedhermind.page/img/BookArt.v5_small.png\" width=\"300px\">",
+      "date_published": "2022-12-18T00:00:00Z"
+    },
+    {
+      "id": "https://someonechangedhermind.page/posts/2022-11-03/",
+      "url": "https://someonechangedhermind.page/posts/2022-11-03/",
+      "title": "Ebook available on Google Play",
+      "content_html": "<p>Someone Changed Her Mind, eBook edition, is now available on Google Play for <strong>$2.99</strong>.</p>\n<p><a  class=\"btn btn-outline-primary\" href=\"https://www.google.com/books/edition/Someone_Changed_Her_Mind/L8F8EAAAQBAJ?hl=en&gbpv=0\" role=\"button\">🕮 Get your copy here</a></p>\n<img src=\"https://someonechangedhermind.page/img/BookArt.v5_small.png\" width=\"300px\">",
+      "date_published": "2022-11-03T00:00:00Z"
+    }
+  ]
+}
