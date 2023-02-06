@@ -1,34 +1,14 @@
-# This script will build static site files and push them to a `gh-pages` branch of your repository.
-# If you are able to go into the `gh-pages` branch and see you static content then the build action
-# was successful in GitHub and you can continue on with configuring your repository to publish the 
-# content of the `gh-pages` branch to your default repository website (which should look like 
-# https://[gitUsername].github.io/[repositoryName]/). To publish this website, 
-# in your GitHub repository online, go to Settings/Pages/Build and deployment/Source and choose the
-# `Deploy from branch`. Then just below that option choose `gh-pages` as the branch. 
-name: Build static files to gh-pages
+name: Publish on GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: [ main ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-# permissions:
-#   deployments: write
-#   pull-requests: write
-#   repository-projects: write
-#   contents: write
-#   pages: write
-#   id-token: write
-
-# Allow one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-  
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -43,14 +23,16 @@ jobs:
           deno-version: v1.x
 
       - name: Build site
-        run: |
-          deno task build --location=https://someonechangedhermind.page/
-
-      - name: Push static files to gh-pages branch
-        uses: crazy-max/ghaction-github-pages@v3
+        run: deno task build
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          target_branch: gh-pages
-          build_dir: _site
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: '_site'
 
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
