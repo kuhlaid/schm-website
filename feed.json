@@ -1,0 +1,34 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Someone Changed Her Mind, a book by Fran Gale",
+  "home_page_url": "https://someonechangedhermind.page/",
+  "feed_url": "https://someonechangedhermind.page/feed.json",
+  "description": "New book release of 2022",
+  "author": {
+    "name": "Fran Gale,",
+    "url": "https://kuhlaid.github.io/schm-website/"
+  },
+  "items": [
+    {
+      "id": "https://someonechangedhermind.page/posts/2023-02-05/",
+      "url": "https://someonechangedhermind.page/posts/2023-02-05/",
+      "title": "Order a copy of the paperback book online",
+      "content_html": "<div class=\"container col-xxl-8\">\n  <div class=\"row flex-lg-row-reverse align-items-center g-5 py-5\">\n      <div class=\"col-10 col-sm-8 col-lg-6\"><img class=\"d-block mx-lg-auto img-fluid\" src=\"https://someonechangedhermind.page/img/printBookInHand.png\" width=\"300px\"></div>\n      <div class=\"col-10 col-sm-8 col-lg-6\">\n        <div class=\"col-lg-6\">\n        <a href=\"https://fran-gale-books.square.site/product/paperback/1?cp=true&sa=false&sbp=false&q=false&category_id=2\" class=\"btn  btn-outline-primary\" role=\"button\" data-toggle=\"tooltip\" target=\"_blank\" title=\"This link will redirect you to our Square site for placing the order\">Order your paperback copy today at fran-gale-books.square.site</a>\n        </div>\n      </div>\n  <div>\n</div>",
+      "date_published": "2023-02-05T00:00:00Z"
+    },
+    {
+      "id": "https://someonechangedhermind.page/posts/2022-12-18/",
+      "url": "https://someonechangedhermind.page/posts/2022-12-18/",
+      "title": "Paperback book no longer available at Books and Crannies",
+      "content_html": "<p>Someone Changed Her Mind, paperback edition, is no longer available at Books and Crannies since they closed their in-person store. 😢</p>",
+      "date_published": "2023-02-04T00:00:00Z"
+    },
+    {
+      "id": "https://someonechangedhermind.page/posts/2022-11-03/",
+      "url": "https://someonechangedhermind.page/posts/2022-11-03/",
+      "title": "eBook available on Google Play",
+      "content_html": "<p>Someone Changed Her Mind, eBook edition, is now available on Google Play for <strong>$2.99</strong>.</p>\n<p><a  class=\"btn btn-outline-primary\" href=\"https://www.google.com/books/edition/Someone_Changed_Her_Mind/L8F8EAAAQBAJ?hl=en&gbpv=0\" role=\"button\">🕮 Purchase your copy here at Google Play</a></p>\n<img src=\"https://someonechangedhermind.page/img/eBookInHand.png\" width=\"300px\">",
+      "date_published": "2022-11-03T00:00:00Z"
+    }
+  ]
+}

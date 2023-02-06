@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Someone Changed Her Mind, a book by Fran Gale</title>
+	<subtitle>New book release of 2022</subtitle>
+	<link href="https://someonechangedhermind.page/feed.xml" rel="self"/>
+	<link href="https://someonechangedhermind.page/"/>
+	
+	<updated>2023-02-06T23:34:57Z</updated>
+	<id>https://someonechangedhermind.page/</id>
+	<author>
+		<name>Fran Gale,</name>
+		<email>w.patrick.gale@gmail.com,</email>
+	</author>
+	<entry>
+		<title>Order a copy of the paperback book online</title>
+		<link href="https://someonechangedhermind.page/posts/2023-02-05/"/>
+		<updated>2023-02-05T00:00:00Z</updated>
+		<id>https://someonechangedhermind.page/posts/2023-02-05/</id>
+		<content type="html">&lt;div class=&quot;container col-xxl-8&quot;&gt;
+  &lt;div class=&quot;row flex-lg-row-reverse align-items-center g-5 py-5&quot;&gt;
+      &lt;div class=&quot;col-10 col-sm-8 col-lg-6&quot;&gt;&lt;img class=&quot;d-block mx-lg-auto img-fluid&quot; src=&quot;https://someonechangedhermind.page/img/printBookInHand.png&quot; width=&quot;300px&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;col-10 col-sm-8 col-lg-6&quot;&gt;
+        &lt;div class=&quot;col-lg-6&quot;&gt;
+        &lt;a href=&quot;https://fran-gale-books.square.site/product/paperback/1?cp=true&amp;sa=false&amp;sbp=false&amp;q=false&amp;category_id=2&quot; class=&quot;btn  btn-outline-primary&quot; role=&quot;button&quot; data-toggle=&quot;tooltip&quot; target=&quot;_blank&quot; title=&quot;This link will redirect you to our Square site for placing the order&quot;&gt;Order your paperback copy today at fran-gale-books.square.site&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;div&gt;
+&lt;/div&gt;</content>
+	</entry>
+	<entry>
+		<title>Paperback book no longer available at Books and Crannies</title>
+		<link href="https://someonechangedhermind.page/posts/2022-12-18/"/>
+		<updated>2023-02-04T00:00:00Z</updated>
+		<id>https://someonechangedhermind.page/posts/2022-12-18/</id>
+		<content type="html">&lt;p&gt;Someone Changed Her Mind, paperback edition, is no longer available at Books and Crannies since they closed their in-person store. 😢&lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<title>eBook available on Google Play</title>
+		<link href="https://someonechangedhermind.page/posts/2022-11-03/"/>
+		<updated>2022-11-03T00:00:00Z</updated>
+		<id>https://someonechangedhermind.page/posts/2022-11-03/</id>
+		<content type="html">&lt;p&gt;Someone Changed Her Mind, eBook edition, is now available on Google Play for &lt;strong&gt;$2.99&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a  class=&quot;btn btn-outline-primary&quot; href=&quot;https://www.google.com/books/edition/Someone_Changed_Her_Mind/L8F8EAAAQBAJ?hl=en&amp;gbpv=0&quot; role=&quot;button&quot;&gt;🕮 Purchase your copy here at Google Play&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&quot;https://someonechangedhermind.page/img/eBookInHand.png&quot; width=&quot;300px&quot;&gt;</content>
+	</entry>
+</feed>
