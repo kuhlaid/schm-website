@@ -19,7 +19,7 @@ jobs:
 
       - name: Build site
         run: |
-          deno task build --location=https://someonechangedhermind.page/
+          deno task build --location=https://kuhlaid.github.io/schm-website
 
       - name: Deploy
         uses: crazy-max/ghaction-github-pages@v2.0.1
