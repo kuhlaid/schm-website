@@ -1,8 +1,8 @@
 ---
 layout: layouts/page.njk
-title: Contact the Author
+title: Inquiries
 templateClass: container
-date: 2023-02-05
+date: 2024-01-24
 menu:
   visible: true
   order: 4
@@ -10,7 +10,7 @@ menu:
 <div class="container d-sm-flex justify-content-left">
   <div class="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-3">
     <div class="col align-items-start">
-      Please fill out the form on this page if you have any questions or comments about the book. We have received four inquiries at the time of this writing about ordering a book. We now have copies of the book for purchase online through our Square site: <a href="https://fran-gale-books.square.site/product/paperback/1?cp=true&sa=false&sbp=false&q=false&category_id=2" class="btn btn-primary" role="button" target="_blank" data-toggle="tooltip" title="This link will redirect you to our Square site for placing the order">Order your paperback copy today at fran-gale-books.square.site</a>
+      Please fill out the form on this page if you have any questions or comments about the book. We have received six inquiries at the time of this writing about ordering a book. We have copies of the book for purchase online through our Square site: <a href="https://fran-gale-books.square.site/product/paperback/1?cp=true&sa=false&sbp=false&q=false&category_id=2" class="btn btn-primary" role="button" target="_blank" data-toggle="tooltip" title="This link will redirect you to our Square site for placing the order">Order your paperback copy today at fran-gale-books.square.site</a>
 <br/>
 We read all inquiries and appreciate your interest in the book. <br/>
 - Thank you
