@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 title: About the Book
 templateClass: container
-date: 2022-11-03
+date: 2024-01-24
 menu:
   visible: true
   order: 1
@@ -33,4 +33,6 @@ Nonfiction (family/law, mental health, counseling, false memory syndrome, recove
 
 ### About Fran
 
-Fran Gale, M.S.W., B.A. is a retired medical social worker who relished many aspects of hospital social work: discharge planning, mental health, oncology, home care, and hospice. Before social work, she taught English as a second language in Panama and high school Spanish in Virginia.
+Fran Gale, M.S.W., B.A. was a retired medical social worker who relished many aspects of hospital social work: discharge planning, mental health, oncology, home care, and hospice. Before social work, she taught English as a second language in Panama and high school Spanish in Virginia.
+
+Fran died peacefully at home under the care of hospice, surrounded by loved ones, in January 2024. Fran was diagnosed with cancer two years earlier.
